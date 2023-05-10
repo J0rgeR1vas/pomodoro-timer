@@ -11,6 +11,7 @@ function setTimer() {
         if (minutes === 0 && seconds === 0) {
             clearInterval(interval);
             console.log("Time's up! Take break now for 5 minutes.");
+            //not working at this moment
           setTimeout(() => {
             console.log("Break is over. starting timer again.");
             setTimer();
